@@ -29,7 +29,7 @@
         <span class="mdl-layout-title">Tax Calculator</span>
       </div>
     </header>
-    <h3 class="enter-info"> Please enter your employment information </h3>
+    <h3 class="enter-info">Please enter your employment information</h3>
     <br>
     <form action="answer.php" method="GET">
       <div class="mdl-textfield mdl-js-textfield" id="base-a">
@@ -56,7 +56,7 @@
 
   </div>
   <br>
-  <img class="Calculate" src="images/income_tax.jpg" alt="income tax ">
+  <img class="Calculate" src="images/income_tax.jpg" alt="income tax">
 </body>
 
 </html>
