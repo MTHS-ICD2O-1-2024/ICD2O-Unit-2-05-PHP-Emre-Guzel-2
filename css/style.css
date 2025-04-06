@@ -2,3 +2,39 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+
+/* Created by: Emre Guzel
+* Created on: March 19 2025
+* This file contains the CSS for index.php
+*/
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background: skyblue;
+  margin-left: 2rem;
+}
+
+img {
+  width: 30%;
+  text-align: center;
+  margin-left: 60vw;
+  margin-top: 10rem;
+}
+
+img.pad {
+
+  margin-top: 5vw;
+
+}
+
+#answer {
+  color: black;
+  margin-top: 1rem;
+}
