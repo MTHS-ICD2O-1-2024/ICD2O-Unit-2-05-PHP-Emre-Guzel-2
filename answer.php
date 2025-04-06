@@ -18,10 +18,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>Area of Trapizoid </title>
+  <title>Tax Calculator</title>
 </head>
 
-<body>
+<body style="margin-left: 2rem;">
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
@@ -39,7 +39,7 @@
       $hoursWorked = $_GET["hours-worked"];
       $takeHomePay = ($hoursWorked * $hourlyWage) * (1.00 - $taxAmount);
       $taxes = ($hoursWorked * $hourlyWage) * $taxAmount;
-      echo "Your pay will be $ = " . $takeHomePay. "<br>". " The govermnet will take $  = ". $taxes;
+      echo "Your pay will be $ = " . $takeHomePay . "<br>" . " The govermnet will take $  = " . $taxes;
       ?>
       <br /> <br>
       <div class="page-content-answer">
