@@ -39,7 +39,7 @@
       $hoursWorked = $_GET["hours-worked"];
       $takeHomePay = ($hoursWorked * $hourlyWage) * (1.00 - $taxAmount);
       $taxes = ($hoursWorked * $hourlyWage) * $taxAmount;
-      echo "Your pay will be $ = " . $takeHomePay . "<br>" . " The government  will take $  = " . $taxes;
+      echo "Your pay will be  = " . "$"." " . $takeHomePay . "<br>" . " The government  will take = " ."$" ." ". $taxes;
       ?>
       <br /> <br>
       <div class="page-content-answer">
