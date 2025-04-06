@@ -34,15 +34,12 @@
       </div>
       <br><br>
       <?php
-      $baseAOfTrapizoid = $_GET["base-a-of-trapizoid"];
-      $baseBOfTrapizoid = $_GET["base-b-of-trapizoid"];
-      $heightOfTheTrapizoid = $_GET["height-of-the-trapizoid"];
-      $area = ($baseAOfTrapizoid + $baseBOfTrapizoid) / 2 * $heightOfTheTrapizoid;
-      echo "If a trapezoid has A base = " . $baseAOfTrapizoid . " mm and the base B = " . $baseBOfTrapizoid . " mm, <br>";
-      echo "If a trapezoid has a height = " . $heightOfTheTrapizoid . " mm, then:<br>";
-      echo "<br />";
-      echo "<br />";
-      echo "The area of the triangle is " . $area . " mm².";
+      $taxAmount = 0.18;
+      $hourlyWage = $_GET["hourly-wage"];
+      $hoursWorked = $_GET["hours-worked"];
+      $takeHomePay = ($hoursWorked * $hourlyWage) * (1.00 - $taxAmount);
+      $taxes = ($hoursWorked * $hourlyWage) * $taxAmount;
+      echo "Your pay will be $ = " . $takeHomePay. "<br>". " The govermnet will take $  = ". $taxes;
       ?>
       <br /> <br>
       <div class="page-content-answer">
@@ -50,7 +47,7 @@
       </div>
       <br>
       <div class="Calculate-2">
-        <img src="./images/trapezoid.svg" alt="Calculation">
+        <img src="./images/income_tax.jpg" alt="income tax">
       </div>
     </main>
 </body>

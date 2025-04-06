@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Area of Trapizoid " />
+  <meta name="description" content="Tax Caluclator  " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Emre Guzel" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -18,38 +18,34 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>Area of Trapizoid </title>
+  <title>Tax Calculator </title>
 </head>
-
-<body>
+<body style="margin-left: 2rem;">
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <script src="js/script.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area of Trapizoid</span>
+        <span class="mdl-layout-title">Tax Calculator</span>
       </div>
     </header>
-    <h3 class="dimatoins"> Please enter your employment information </h3>
+    <h3 class="enter-info"> Please enter your employment information </h3>
     <br>
     <form action="answer.php" method="GET">
       <div class="mdl-textfield mdl-js-textfield" id="base-a">
         <p class="base-a"></p>
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-a-of-trapizoid">
-        <label class="mdl-textfield__label" for="base-a-of-trapizoid" aria-placeholder="lorem"></label>
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" placeholder="Hours worked (hours)" name="hours-worked">
+        <label class="mdl-textfield__label" for="hours-worked"></label>
         <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
-      <br><br>
+      <br>
       <div class="mdl-textfield mdl-js-textfield" id="base-b">
-        <p class="base-a"> Base B</p>
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-b-of-trapizoid">
-        <label class="mdl-textfield__label" for="base-b-of-trapizoid"></label>
-        <span>mm</span>
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" placeholder="Hourly wage ($)" name="hourly-wage">
+        <label class="mdl-textfield__label" for="hourly-wage"></label>
         <br>
         <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
-      <br><br>
-      <br><br>
+      <br>
       <main id="click-me " class="mdl-layout__content">
         <button id="click" type="submit" onclick="calculatoinOfAreaOfTrapizoid()"
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
@@ -60,7 +56,7 @@
 
   </div>
   <br>
-  <img class="Calculate" src="images/trapezoid.svg" alt="Formula of rectengle">
+  <img class="Calculate" src="images/income_tax.jpg" alt="income tax ">
 </body>
 
 </html>
